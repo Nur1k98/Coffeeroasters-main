@@ -24,8 +24,8 @@
   display: block;
   width: 450px;
   height: 477px;
-  background-image: url("../images/aftor_right.png"), url("../images/aftor_right2.png");
-  background-position: center, calc(50% + 25px) calc(50% + 25px);
+  background-image: url("../images/aftor_right.png");
+  background-position: center, calc(50% + 25px);
   background-repeat: no-repeat;
   content: "";
 }
@@ -114,4 +114,28 @@
   font-size: 22px;
   line-height: 34px;
   color: #333333;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .main__our-collection::before {
+    background-image: url("../images/befor_left@2x.png");
+  }
+
+  .main__our-collection::after {
+    background-image: url("../images/aftor_right@2x.png");
+  }
+
+  .our-collection__wrapper {
+    background-image: url("../images/background2@2x.png");
+  }
+
+  .our-collection__wrapper::before {
+    background-image: url("../images/before_left2@2x.png");
+  }
+
 }
