@@ -1,13 +1,16 @@
+// --------------------------------------------HOME---------------------------------------------//
 .site-hero {
   position: relative;
   padding: 116px 0 249px;
-  background-image: url("../../images/img_1.png"), url("../images/background.png");
+  background-image: url("../images/img_1.png"), url("../images/background.png");
   background-blend-mode: normal, overlay;
   background-repeat: no-repeat;
   background-size: 710px 696px, 100%;
   background-color: #F3D7B7;
   background-position: calc(50% + 405px) bottom, center;
 }
+
+
 
 .site-hero::before {
   position: absolute;
@@ -16,7 +19,7 @@
   display: block;
   width: 214px;
   height: 214px;
-  background-image: url("../../images/logo_coffee.svg");
+  background-image: url("../images/logo_coffee.svg");
   background-repeat: no-repeat;
   background-size: 214;
   z-index: 1;
