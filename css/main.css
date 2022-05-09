@@ -1231,7 +1231,7 @@ img {
 .create-main__site-hero {
   position: relative;
   padding: 116px 0 261px;
-  background-image: url("../../images/create-main-bgi.svg"), url("../images/background.png");
+  background-image: url("../images/create-main-bgi.svg"), url("../images/background.png");
   background-blend-mode: normal, overlay;
   background-repeat: no-repeat;
   background-size: 710px 596px, 100%;
